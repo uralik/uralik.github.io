@@ -1,7 +1,7 @@
 window.onload = function() {
 
   var messagesEl = document.querySelector('.messages');
-  var typingSpeed = 20;
+  var typingSpeed = 25;
   var loadingText = '<b>•</b><b>•</b><b>•</b>';
   var messageIndex = 0;
 
@@ -10,9 +10,9 @@ window.onload = function() {
     var hours =  date.getHours();
     var minutes =  date.getMinutes();
     var current = hours + (minutes * .01);
-    if (current >= 5 && current < 19) return 'Have a nice day';
-    if (current >= 19 && current < 22) return 'Have a nice evening';
-    if (current >= 22 || current < 5) return 'Have a good night';
+    if (current >= 5 && current < 19) return 'Have a nice day =)';
+    if (current >= 19 && current < 22) return 'Have a nice evening =)';
+    if (current >= 22 || current < 5) return 'Have a good night =)';
   }
 
   var messages = [
@@ -23,7 +23,6 @@ window.onload = function() {
     'You can find more info about me here:',
     '<a target="_blank" href="https://www-i6.informatik.rwth-aachen.de/~kulikov/">www-i6.informatik.rwth-aachen.de/~kulikov</a><br><a target="_blank" href="http://ikulikov.name">ikulikov.name</a><br><a target="_blank" href="https://github.com/iikulikov">github.com/iikulikov</a>',
     getCurrentTime(),
-    '.'
   ]
 
   var getFontSize = function() {
