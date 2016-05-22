@@ -16,7 +16,7 @@ window.onload = function() {
   }
 
   var messages = [
-    'Hello,
+    'Hello',
     'My name is Ilya',
     'I am a master student in RWTH Aachen',
     'I\'m currently working at HLT Group as student assistant, my main topic is Automatic Speech Recognition',
