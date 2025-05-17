@@ -1,4 +1,4 @@
-[gora](./gora.jpg)
+![gora](./gora.jpg)
 
 hi, i'm ilia, welcome to my page!
 
